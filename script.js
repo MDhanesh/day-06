@@ -40,7 +40,7 @@ class Movie3 {
     this.studio = studio;
     this.rating = rating;
   }
-  getPG(all) {
+  getPG() {
     let PG = [];
     for (let i = 0; i < allmovies.length; i++) {
       if (allmovies[i].rating === "PG") {
